@@ -1,104 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous"
-        />
-        <meta name="naver-site-verification" content="63d977745c83e055a7bda93bf56bfd611fb2d99c" />
-        <meta
-            name="google-site-verification"
-            content="AHzJx8Rq8TsCAUbbeq1R_yDtD-wPnIXwAQJ7Qh88fO0"
-        />
-        <title>관상노리</title>
-        <meta name="title" content="관상노리" />
-        <meta
-            name="subject"
-            content="얼굴로 보는 인공지능 관상 테스트, 나의 얼굴 사진으로 관상을 찾아보세요!"
-        />
-        <meta
-            name="description"
-            content="티쳐블머신의 학습을 기반으로 나의 얼굴과 비교해 보는 인공지능 관상 테스트"
-        />
-        <meta
-            name="keywords"
-            content="관상 테스트, 인공지능 관상 테스트, 얼굴상, 얼굴상 테스트, 나와 닮은 관상, 관상 찾기, 얼굴로 보는 관상, 얼굴 관상, 관상얼굴, 가수상, 연예인상, 영화배우상, 정치법률가상, 부자상, 인공지능 관상, AI 얼굴상, AI 관상"
-        />
-        <meta name="author" content="risingsun" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="canonical" href="https://gwansangnori.site" />
-        <meta property="og:url" content="https://gwansangnori.site" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="인공지능 관상" />
-        <meta
-            property="og:description"
-            content="각 분야의 대표 유명인 사진 데이터로 학습한 인공지능이 나의 얼굴과 닮은 관상을 찾아드립니다."
-        />
-        <meta
-            property="og:image"
-            content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fc0eq42%2FbtqCQpiFhFn%2F8KPaOP9q8PXpJFRL7if55K%2Fimg.jpg"
-        />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-        <script
-            type="text/javascript"
-            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f8040ac46e70268"
-        ></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <meta name="naver-site-verification" content="63d977745c83e055a7bda93bf56bfd611fb2d99c" />
+    <meta name="google-site-verification" content="AHzJx8Rq8TsCAUbbeq1R_yDtD-wPnIXwAQJ7Qh88fO0" />
+    <title>관상노리</title>
+    <meta name="title" content="관상노리" />
+    <meta name="subject" content="얼굴로 보는 인공지능 관상 테스트, 나의 얼굴 사진으로 관상을 찾아보세요!" />
+    <meta name="description" content="티쳐블머신의 학습을 기반으로 나의 얼굴과 비교해 보는 인공지능 관상 테스트" />
+    <meta name="keywords"
+        content="관상 테스트, 인공지능 관상 테스트, 얼굴상, 얼굴상 테스트, 나와 닮은 관상, 관상 찾기, 얼굴로 보는 관상, 얼굴 관상, 관상얼굴, 가수상, 연예인상, 영화배우상, 정치법률가상, 부자상, 인공지능 관상, AI 얼굴상, AI 관상" />
+    <meta name="author" content="risingsun" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="canonical" href="https://gwansangnori.site" />
+    <meta property="og:url" content="https://gwansangnori.site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="인공지능 관상" />
+    <meta property="og:description" content="각 분야의 대표 유명인 사진 데이터로 학습한 인공지능이 나의 얼굴과 닮은 관상을 찾아드립니다." />
+    <meta property="og:image"
+        content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2Fc0eq42%2FbtqCQpiFhFn%2F8KPaOP9q8PXpJFRL7if55K%2Fimg.jpg" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-            gtag('config', 'UA-145482737-6');
-        </script>
-    </head>
+    <!-- Go to www.addthis.com/dashboard to customize your tools
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f8040ac46e70268"></script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145482737-6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    <body>
-        <nav class="p-3 container navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">관상노리</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="true"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-145482737-6');
+    </script>
+</head>
 
-            <div class="navbar-collapse collapse" id="navbarNav" style>
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://smartstore.naver.com/pandanet"
-                            >판다넷
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://smartstore.naver.com/graejoa"
-                            >아그래조아</a
-                        >
-                    </li>
-                    <li id="goToBlog" class="nav-item active">
+<body>
+    <nav class="p-3 container navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">관상노리</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarNav" style>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://smartstore.naver.com/pandanet">판다넷
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://luckychat.win">운세요정 럭키챗</a>
+                </li>
+                <!-- <li id="goToBlog" class="nav-item active">
                         <a class="nav-link" href="https://smartstore.naver.com/panda-pan">
                             판다팬
                         </a>
-                    </li>
-                    <!-- <li
+                    </li> -->
+                <!-- <li
                         class="nav-item active"
                         onclick="gtag('event', '조코딩 유튜브 클릭', {'event_category': '조코딩 유튜브 클릭','event_label': '상단 메뉴'});"
                     >
@@ -109,405 +77,381 @@
                             >조코딩 유튜브 채널</a
                         >
                     </li> -->
-                </ul>
-            </div>
-        </nav>
+            </ul>
+        </div>
+    </nav>
 
-        <section class="section">
-            <h1 class="title">관상노리</h1>
-            <h2 class="subtitle">얼굴로 보는 인공지능 관상 테스트</h2>
-            <h2 class="sr-only">나의 모습은 어떤 관상일까? 나의 관상 찾기를 해보세요!</h2>
-            <h3 class="sr-only">
-                대표 유명인 사진 데이터로 학습한 인공지능이 나의 얼굴로 관상과 특징을 찾아드립니다.
-            </h3>
-            <h4 class="sr-only">
-                본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.
-            </h4>
-            <p class="sr-only">
-                얼굴로 보는 인공지능 관상 테스트, 사진으로 보는 나의 관상은 어떠할까요? 인공지능으로
-                당신의 관상을 찾아보세요! 각 분야의 대표 유명인 사진 데이터로 학습한 인공지능이 나의
-                얼굴과 닮은 관상과 특징을 찾아드립니다. 회원가입도 필요없이 화면에서 바로
-                확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 관상
-                테스트 한번 해보세요! 가수상, 연예인상, 영화배우상, 정치인상, 법률가상, 부자상,
-                스포츠스타상, 사업가상 등 얼굴상 테스트를 통해 나의 관상 찾기를 할 수 있습니다.
-            </p>
-        </section>
-        <section class="youtube pb-3" id="yotube-mid-link">
-            <div class="container mt-3 youtube-cover d-flex flex-row-reverse align-items-center">
-                <img src="img/youtube-copy.jpg" alt="youtube-icon" class="youtube-icon" />
-                <a
-                    href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg"
-                    class="youtube-link"
-                    >제작도움: By 조코딩 유튜브 채널</a
-                >
-            </div>
-        </section>
-        <h3 class="pb-2 d-flex justify-content-center">성별을 선택하세요</h3>
-        <section class="d-flex justify-content-center">
-            <p class="d-flex align-items-center pr-3">여자</p>
-            <div>
-                <input type="checkbox" id="gender" />
-                <label for="gender">
-                    <span class="knob">
-                        <i></i>
-                    </span>
-                </label>
-            </div>
-            <p class="d-flex align-items-center pl-3">남자</p>
-        </section>
-        <script
-            class="jsbin"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"
-        ></script>
-        <div class="mt-3 container file-upload">
-            <div class="image-upload-wrap">
-                <input
-                    class="file-upload-input"
-                    type="file"
-                    onchange="readURL(this);"
-                    accept="image/*"
-                />
-                <div class="drag-text">
-                    <img src="img/upload.svg" class="mt-5 pt-5 upload" />
-                    <h3 class="mb-5 pb-5 pt-4 upload-text">
-                        얼굴 사진을 올려놓거나 눌러서 업로드하세요!
-                    </h3>
-                </div>
-            </div>
-            <div class="file-upload-content">
-                <img class="file-upload-image" id="face-image" src="#" alt="your image" />
-                <div id="loading" class="animated bounce">
-                    <div class="spinner-border" role="status">
-                        <span class="sr-only">Loading...</span>
-                    </div>
-                    <p class="text-center">AI가 당신의 관상을 분석중입니다.</p>
-                    <p class="text-center">사진 데이터는 그 어디에도 저장, 전송되지 않습니다.</p>
-                    
-                </div>
-                <p class="result-message"></p>
-                <div id="label-container" class="d-flex flex-column justify-content-around"></div>
-
-                <!-- Go to www.addthis.com/dashboard to customize your tools -->
-                <div class="addthis_inline_share_toolbox_xuf2"></div>
-
-                <div class="pt-3 image-title-wrap">
-                    <button
-                        type="button p-2"
-                        class="try-again-btn"
-                        onclick="window.location.reload();"
-                    >
-                        <span class="try-again-text">다른 사진으로 재시도</span>
-                    </button>
-                </div>
+    <section class="section">
+        <h1 class="title">관상노리</h1>
+        <h2 class="subtitle">얼굴로 보는 인공지능 관상 테스트</h2>
+        <h2 class="sr-only">나의 모습은 어떤 관상일까? 나의 관상 찾기를 해보세요!</h2>
+        <h3 class="sr-only">
+            대표 유명인 사진 데이터로 학습한 인공지능이 나의 얼굴로 관상과 특징을 찾아드립니다.
+        </h3>
+        <h4 class="sr-only">
+            본 서비스는 Google의 인공지능 teachable machine 2.0을 활용하였습니다.
+        </h4>
+        <p class="sr-only">
+            얼굴로 보는 인공지능 관상 테스트, 사진으로 보는 나의 관상은 어떠할까요? 인공지능으로
+            당신의 관상을 찾아보세요! 각 분야의 대표 유명인 사진 데이터로 학습한 인공지능이 나의
+            얼굴과 닮은 관상과 특징을 찾아드립니다. 회원가입도 필요없이 화면에서 바로
+            확인해보세요! 사진 데이터는 그 어디에도 전송되지 않습니다. 인공지능이 보는 나의 관상
+            테스트 한번 해보세요! 가수상, 연예인상, 영화배우상, 정치인상, 법률가상, 부자상,
+            스포츠스타상, 사업가상 등 얼굴상 테스트를 통해 나의 관상 찾기를 할 수 있습니다.
+        </p>
+    </section>
+    <section class="youtube pb-3" id="yotube-mid-link">
+        <div class="container mt-3 youtube-cover d-flex flex-row-reverse align-items-center">
+            <img src="img/youtube-copy.jpg" alt="youtube-icon" class="youtube-icon" />
+            <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="youtube-link">제작도움: By 조코딩 유튜브
+                채널</a>
+        </div>
+    </section>
+    <h3 class="pb-2 d-flex justify-content-center">성별을 선택하세요</h3>
+    <section class="d-flex justify-content-center">
+        <p class="d-flex align-items-center pr-3">여자</p>
+        <div>
+            <input type="checkbox" id="gender" />
+            <label for="gender">
+                <span class="knob">
+                    <i></i>
+                </span>
+            </label>
+        </div>
+        <p class="d-flex align-items-center pl-3">남자</p>
+    </section>
+    <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <div class="mt-3 container file-upload">
+        <div class="image-upload-wrap">
+            <input class="file-upload-input" type="file" onchange="readURL(this);" accept="image/*" />
+            <div class="drag-text">
+                <img src="img/upload.svg" class="mt-5 pt-5 upload" />
+                <h3 class="mb-5 pb-5 pt-4 upload-text">
+                    얼굴 사진을 올려놓거나 눌러서 업로드하세요!
+                </h3>
             </div>
         </div>
+        <div class="file-upload-content">
+            <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+            <div id="loading" class="animated bounce">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <p class="text-center">AI가 당신의 관상을 분석중입니다.</p>
+                <p class="text-center">사진 데이터는 그 어디에도 저장, 전송되지 않습니다.</p>
 
-        <section
-            id="yotube-bottom-link"
-            class="mt-2 d-flex flex-column justify-content-center align-items-center"
-            onclick="gtag('event', '조코딩 유튜브 클릭', {'event_category': '조코딩 유튜브 클릭','event_label': '하단 광고'});"
-        >
-            <!-- <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="d-flex flex-column justify-content-center align-items-center">
+            </div>
+            <p class="result-message"></p>
+            <div id="label-container" class="d-flex flex-column justify-content-around"></div>
+
+            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <div class="addthis_inline_share_toolbox_xuf2"></div>
+
+            <div class="pt-3 image-title-wrap">
+                <button type="button p-2" class="try-again-btn" onclick="window.location.reload();">
+                    <span class="try-again-text">다른 사진으로 재시도</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- <section id="yotube-bottom-link" class="mt-2 d-flex flex-column justify-content-center align-items-center"
+        onclick="gtag('event', '조코딩 유튜브 클릭', {'event_category': '조코딩 유튜브 클릭','event_label': '하단 광고'});">
+        <a href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg" class="d-flex flex-column justify-content-center align-items-center">
             <img class="ad-banner"src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FdHfMHS%2FbtqDfCJdLpH%2F6xKAC0w10kTrGjhll02SOK%2Fimg.jpg" alt="조코딩 유튜브 홍보"/>
             <span>이런 앱을 직접 만들어보고 싶지 않으신가요? 조코딩 채널을 구독해보세요!</span>
-        </a> -->
-            <iframe
-                width="320"
-                height="180"
-                src="https://www.youtube.com/embed/s6SITKSN9Q0"
-                frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen=""
-            ></iframe>
-            <h4 class="mt-1 text-center">이런 앱 만들면 얼마 벌까? 충격적인 수익 공개합니다</h4>
-        </section>
-        <div class="container pt-3">
-            <div id="disqus_thread"></div>
-        </div>
-        <footer class="footer pt-5 container d-flex justify-content-center">
-            <div>
-                <p>&copy; Risingsun 2020. All Rights Reserved.</p>
-                <ul id="moreInfo" class="list-inline d-flex justify-content-center">
-                    <li class="list-inline-item">
-                        <a href="https://gwansangnori.site/privacy.html">Privacy</a>
-                    </li>
-                    <!-- <li class="list-inline-item">
+        </a>
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/s6SITKSN9Q0" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <h4 class="mt-1 text-center">이런 앱 만들면 얼마 벌까? 충격적인 수익 공개합니다</h4>
+    </section> -->
+
+    <!-- <div class="kakao-ad"></div> -->
+    <ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-d0zCtEv171HCkHtB" data-ad-width="320"
+        data-ad-height="100"></ins>
+    <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    <!-- </div> -->
+
+    <!-- <div class="container pt-3">
+        <div id="disqus_thread"></div>
+    </div>
+    <footer class="footer pt-5 container d-flex justify-content-center">
+        <div> -->
+    <p>&copy; Risingsun 2020. All Rights Reserved.</p>
+    <ul id="moreInfo" class="list-inline d-flex justify-content-center">
+        <li class="list-inline-item">
+            <a href="https://gwansangnori.site/privacy.html">Privacy</a>
+        </li>
+        <!-- <li class="list-inline-item">
                         <a href="https://animalface.site/blog">About</a>
                     </li> -->
-                </ul>
-            </div>
-        </footer>
-        <script>
-            function gaReload() {
-                gtag('event', '다른 사진으로 재시도', {
-                    event_category: '다른 사진으로 재시도',
-                });
-                window.location.reload();
-            }
-            function gaReload1() {
-                gtag('event', '다른 사진으로 재시도 1차', {
-                    event_category: '다른 사진으로 재시도',
-                });
-            }
-            function gaReload2() {
-                gtag('event', '다른 사진으로 재시도 2차', {
-                    event_category: '다른 사진으로 재시도',
-                });
-                window.location.reload();
-            }
-        </script>
-        <script>
-            (function () {
-                var d = document,
-                    s = d.createElement('script');
-                s.src = 'https://risingsun-1.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript
-            >Please enable JavaScript to view the
-            <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
-        </noscript>
-
-        <script>
-            function readURL(input) {
-                if (input.files && input.files[0]) {
-                    var reader = new FileReader();
-                    reader.onload = function (e) {
-                        $('.image-upload-wrap').hide();
-                        $('#loading').show();
-                        $('.file-upload-image').attr('src', e.target.result);
-                        $('.file-upload-content').show();
-                        $('.image-title').html(input.files[0].name);
-                    };
-                    reader.readAsDataURL(input.files[0]);
-                    init().then(function () {
-                        console.log('hello');
-                        predict();
-                        $('#loading').hide();
-                    });
-                } else {
-                    removeUpload();
-                }
-            }
-
-            function removeUpload() {
-                $('.file-upload-input').replaceWith($('.file-upload-input').clone());
-                $('.file-upload-content').hide();
-                $('.image-upload-wrap').show();
-            }
-            $('.image-upload-wrap').bind('dragover', function () {
-                $('.image-upload-wrap').addClass('image-dropping');
+    </ul>
+    </div>
+    </footer>
+    <script>
+        function gaReload() {
+            gtag('event', '다른 사진으로 재시도', {
+                event_category: '다른 사진으로 재시도',
             });
-            $('.image-upload-wrap').bind('dragleave', function () {
-                $('.image-upload-wrap').removeClass('image-dropping');
+            window.location.reload();
+        }
+        function gaReload1() {
+            gtag('event', '다른 사진으로 재시도 1차', {
+                event_category: '다른 사진으로 재시도',
             });
-        </script>
-        <script
-            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"
-        ></script>
-        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-        <script type="text/javascript">
-            let URL;
-            const urlMale = 'https://teachablemachine.withgoogle.com/models/VPKZbMHf0/';
-            const urlFemale = 'https://teachablemachine.withgoogle.com/models/ICJBPBgbw/';
-            let model, webcam, labelContainer, maxPredictions;
-            async function init() {
-                if (document.getElementById('gender').checked) {
-                    URL = urlMale;
+        }
+        function gaReload2() {
+            gtag('event', '다른 사진으로 재시도 2차', {
+                event_category: '다른 사진으로 재시도',
+            });
+            window.location.reload();
+        }
+    </script>
+    <script>
+        (function () {
+            var d = document,
+                s = d.createElement('script');
+            s.src = 'https://risingsun-1.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <!-- <noscript>Please enable JavaScript to view the
+        <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript> -->
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                reader.onload = function (e) {
+                    $('.image-upload-wrap').hide();
+                    $('#loading').show();
+                    $('.file-upload-image').attr('src', e.target.result);
+                    $('.file-upload-content').show();
+                    $('.image-title').html(input.files[0].name);
+                };
+                reader.readAsDataURL(input.files[0]);
+                init().then(function () {
+                    console.log('hello');
+                    predict();
+                    $('#loading').hide();
+                });
+            } else {
+                removeUpload();
+            }
+        }
+
+        function removeUpload() {
+            $('.file-upload-input').replaceWith($('.file-upload-input').clone());
+            $('.file-upload-content').hide();
+            $('.image-upload-wrap').show();
+        }
+        $('.image-upload-wrap').bind('dragover', function () {
+            $('.image-upload-wrap').addClass('image-dropping');
+        });
+        $('.image-upload-wrap').bind('dragleave', function () {
+            $('.image-upload-wrap').removeClass('image-dropping');
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript">
+        let URL;
+        const urlMale = 'https://teachablemachine.withgoogle.com/models/VPKZbMHf0/';
+        const urlFemale = 'https://teachablemachine.withgoogle.com/models/ICJBPBgbw/';
+        let model, webcam, labelContainer, maxPredictions;
+        async function init() {
+            if (document.getElementById('gender').checked) {
+                URL = urlMale;
+            } else {
+                URL = urlFemale;
+            }
+            const modelURL = URL + 'model.json';
+            const metadataURL = URL + 'metadata.json';
+            model = await tmImage.load(modelURL, metadataURL);
+            maxPredictions = model.getTotalClasses();
+            labelContainer = document.getElementById('label-container');
+            for (let i = 0; i < maxPredictions; i++) {
+                var element = document.createElement('div');
+                element.classList.add('d-flex');
+                labelContainer.appendChild(element);
+            }
+        }
+        async function predict() {
+            var image = document.getElementById('face-image');
+            const prediction = await model.predict(image, false);
+            prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
+            console.log(prediction[0].className);
+            var resultTitle, resultExplain, resultCeleb;
+            if (document.getElementById('gender').checked) {
+                switch (prediction[0].className) {
+                    case 'singer':
+                        resultTitle = '멋있는 가수상';
+                        resultExplain =
+                            '화려한 무대와 빛나는 조명아래 대중들의 쏟아지는 환호와 갈채를 받으며 노래하고 연주하며 춤추는 멋진 가수를 꿈꾸어 보신 적이 있으신가요, 당신의 모습이 가수상으로 나왔다면 멋쟁이 가수로서의 소질을 타고 났을지도 모를 일입니다. 용기를 내어 한번 도전해 보심이 어떨까요!';
+                        resultCeleb = '셀럽 가수: 방탄소년단, 임영웅, 강다니엘, 백현(엑소)';
+                        break;
+                    case 'moviestar':
+                        resultTitle = '매력있는 영화배우상';
+                        resultExplain =
+                            '영화배우상으로 관상이 나온 당신은 영화 로미오와 줄리엣의 주연 배우 레오나르도 디카프리오를 닮은 매력쟁이 인기남 이겠군요. 만인의 연인으로서 만인의 사랑을 받는 당신은 욕심쟁이 이기도 합니다.!';
+                        resultCeleb = '셀럽 영화배우: 강동원, 마동석, 박보검, 이종석, 이준기';
+                        break;
+                    case 'entertainer':
+                        resultTitle = '다재다능 연예인상';
+                        resultExplain =
+                            '당신은 노래, 드라마, 뮤지컬, 연극, 영화, 음악 등 다방면에 다재다능한 연예인상입니다. 당신은 여러 주변 사람들에게 기쁨을 주는 행복바이러스이고 희로애락을 주는 만능 엔터테이너입니다!';
+                        resultCeleb = '셀럽 연예인: 이승기, 김수현, 유아인, 육성재, 유재석';
+                        break;
+                    case 'politician':
+                        resultTitle = '총명한 정치법률가상';
+                        resultExplain =
+                            '두뇌가 총명하고 명석하며 재능도 많아 다양한 영역에서 두각을 나타내는 상입니다. 정치법률가상은 넓은 이마를 가져 사물을 큰 관점에서 보고 얼굴 중앙부와 하부가 발달해 있으면 실행력이 뛰어나며 콧방울이 큰 코를 가졌으면 재산운도 있습니다. 윤곽이 뚜렷한 팔자 눈썹을 가졌다면 당신은 카리스마 넘치는 야심가일 것입니다.';
+                        resultCeleb = '셀럽 정치법률가: 박지원, 표창원, 박주민, 홍준표, 오바마';
+                        break;
+                    case 'rich':
+                        resultTitle = '핸썸한 부자상';
+                        resultExplain =
+                            '눈썹 사이가 넓고 훤하여 인생을 탄탄대로로 성공할 수 있는 상입니다. 코 끝이 둥글고 콧방울이 뚜렷할수록 금전운이 좋습니다. 도톰하고 동글동글한 귓바퀴에 두껍고 살집이 풍만한 귓불을 가진 남자는 활력이 넘치고 건강한 스타일로 재물운이 따르고 명성을 얻어 거물이 될 상입니다.!';
+                        resultCeleb =
+                            '셀럽 부자: 이건희, 빌게이츠, 정몽구, 김택진, 김범수, 김정주';
+                        break;
+                    default:
+                        resultTitle = '알수없음';
+                        resultExplain = '';
+                        resultCeleb = '';
+                }
+            } else {
+                switch (prediction[0].className) {
+                    case 'singer':
+                        resultTitle = '귀여운 가수상';
+                        resultExplain =
+                            '개성이 강하고 지성과 감성의 균형이 잘 잡혀 있으며 인간관계도 원만합니다. 눈동자가 뚜렷하고 선명하며 적당히 둥글고 가느다란 좋은 눈을 가졌습니다. 턱이 둥그스름 하다면 주변 사람들에게 정을 베푸는 타입으로서 항상 남들한테 즐거움을 주고 대부분 좋은 평을 받는 호감형의 성격입니다. 상냥하고 활발하면서 매사 의욕적이고 활력이 넘치는 생활을 즐기는 타입입니다.!';
+                        resultCeleb =
+                            '셀럽 가수: 이효리, 아이유, 수지, 민아(걸스데이), 나연(트와이스)';
+                        break;
+                    case 'moviestar':
+                        resultTitle = '섹시한 영화배우상';
+                        resultExplain =
+                            '매끄러우면서도 홍조가 살짝 나타나는 뽀얀 피부, 우수에 젖은 눈동자, 오똑한 코, 풍성하고 긴 속눈썹을 자랑하고픈 당신은 도도해 보이지만 매우 사교적이고 묘한 매력을 풍겨 누구하고도 잘 어울리며 인기가 넘쳐 주변에 따르는 이들이 많습니다. 섹시함을 뽐내면서도 애교도 부릴줄 아는 귀여움을 지녀 여성들로부터는 부러움을 받고 남성들로부터는 많은 사랑을 받는 매력녀입니다.!';
+                        resultCeleb =
+                            '셀럽 영화배우: 김혜수, 손예진, 송혜교, 박보영, 오드리헵번, 강수연, ';
+                        break;
+                    case 'entertainer':
+                        resultTitle = '만능 연예인상';
+                        resultExplain =
+                            '때로는 매혹적인 눈빛을 발사하지만 청순하면서도 귀엽고 순수하며 상큼하고 깜찍 발랄한 당신은 어느 곳에서나 관심과 사랑을 듬뿍받는 존재입니다. 총명하고 재주가 많아 노래, 연기 등 예능은 물론이고 사업까지 뛰어난 수완을 발휘하고 있으며 사랑을 줄줄 알고 사랑하는 사람의 마음을 사로잡을 줄 아는 능력까지 갖춘 만능 엔터테이너입니다.!';
+                        resultCeleb = '셀럽 연예인: 김태희, 수지, 한가인, 한예슬, 설현, 문채원';
+                        break;
+                    case 'politician':
+                        resultTitle = '지혜의 정치법률가상';
+                        resultExplain =
+                            '긴 눈썹과 맑은 눈을 가진 당신은 지혜와 더불어 사물을 보는 시야가 매우 넓은 혜안을 지니고 있는 인물입니다. 본인의 철학과 소신이 뚜렷하여 강인하며 다소 차가운 인상으로 비쳐지기도 하지만 겉모습이나 풍기는 이미지와는 달리 내면적으로는 매우 부드럽고 온순한 성격의 소유자입니다. 추진력과 지도력이 강하면서도 따뜻한 인간미를 갖추고 있어 만인의 사랑을 받는 지도자상입니다.';
+                        resultCeleb =
+                            '셀럽 정치법률가상: 추미애, 심상정, 강금실, 류호정, 고민정';
+                        break;
+                    case 'rich':
+                        resultTitle = '부러운 부자상';
+                        resultExplain =
+                            '이마가 도톰하고 넓으며 인중이 깊고 목이 긴 당신은 눈가의 애교살이 도톰해 웃는 모습도 복스럽습니다. 당신은 둥글고 부드러우면서 두툼한 콧망울의 단정한 코를 가져 보통 사람이 누리지 못할 뛰어난 재물운을 타고 났습니다. 활동적이고 추진력이 강한 성격이지만 보이지 않는 곳에서는 타인에게 정을 베풀며 나누는 온정과 따스함을 지닌 진정한 부자의 상입니다.';
+                        resultCeleb = '셀럽 부자: 이부진, 이서현, 홍라희, 서민정, 현정은';
+                        break;
+                    default:
+                        resultTitle = '알수없음';
+                        resultExplain = '';
+                        resultCeleb = '';
+                }
+            }
+            var title =
+                "<div class='" +
+                prediction[0].className +
+                "-animal-title'>" +
+                resultTitle +
+                '</div>';
+            var explain = "<div class='animal-explain pt-2'>" + resultExplain + '</div>';
+            var celeb =
+                "<div class='" +
+                prediction[0].className +
+                "-animal-celeb pt-2 pb-2'>" +
+                resultCeleb +
+                '</div>';
+            $('.result-message').html(title + explain + celeb);
+            var barWidth;
+            for (let i = 0; i < maxPredictions; i++) {
+                if (prediction[i].probability.toFixed(2) > 0.1) {
+                    barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
+                } else if (prediction[i].probability.toFixed(2) >= 0.01) {
+                    barWidth = '4%';
                 } else {
-                    URL = urlFemale;
+                    barWidth = '2%';
                 }
-                const modelURL = URL + 'model.json';
-                const metadataURL = URL + 'metadata.json';
-                model = await tmImage.load(modelURL, metadataURL);
-                maxPredictions = model.getTotalClasses();
-                labelContainer = document.getElementById('label-container');
-                for (let i = 0; i < maxPredictions; i++) {
-                    var element = document.createElement('div');
-                    element.classList.add('d-flex');
-                    labelContainer.appendChild(element);
+                var labelTitle;
+                switch (prediction[i].className) {
+                    case 'singer':
+                        labelTitle = '가수상';
+                        break;
+                    case 'moviestar':
+                        labelTitle = '영화배우상';
+                        break;
+                    case 'entertainer':
+                        labelTitle = '연예인상';
+                        break;
+                    case 'politician':
+                        labelTitle = '정치법률가상';
+                        break;
+                    case 'rich':
+                        labelTitle = '부자상';
+                        break;
+                    default:
+                        labelTitle = '알수없음';
                 }
-            }
-            async function predict() {
-                var image = document.getElementById('face-image');
-                const prediction = await model.predict(image, false);
-                prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
-                console.log(prediction[0].className);
-                var resultTitle, resultExplain, resultCeleb;
-                if (document.getElementById('gender').checked) {
-                    switch (prediction[0].className) {
-                        case 'singer':
-                            resultTitle = '멋있는 가수상';
-                            resultExplain =
-                                '화려한 무대와 빛나는 조명아래 대중들의 쏟아지는 환호와 갈채를 받으며 노래하고 연주하며 춤추는 멋진 가수를 꿈꾸어 보신 적이 있으신가요, 당신의 모습이 가수상으로 나왔다면 멋쟁이 가수로서의 소질을 타고 났을지도 모를 일입니다. 용기를 내어 한번 도전해 보심이 어떨까요!';
-                            resultCeleb = '셀럽 가수: 방탄소년단, 임영웅, 강다니엘, 백현(엑소)';
-                            break;
-                        case 'moviestar':
-                            resultTitle = '매력있는 영화배우상';
-                            resultExplain =
-                                '영화배우상으로 관상이 나온 당신은 영화 로미오와 줄리엣의 주연 배우 레오나르도 디카프리오를 닮은 매력쟁이 인기남 이겠군요. 만인의 연인으로서 만인의 사랑을 받는 당신은 욕심쟁이 이기도 합니다.!';
-                            resultCeleb = '셀럽 영화배우: 강동원, 마동석, 박보검, 이종석, 이준기';
-                            break;
-                        case 'entertainer':
-                            resultTitle = '다재다능 연예인상';
-                            resultExplain =
-                                '당신은 노래, 드라마, 뮤지컬, 연극, 영화, 음악 등 다방면에 다재다능한 연예인상입니다. 당신은 여러 주변 사람들에게 기쁨을 주는 행복바이러스이고 희로애락을 주는 만능 엔터테이너입니다!';
-                            resultCeleb = '셀럽 연예인: 이승기, 김수현, 유아인, 육성재, 유재석';
-                            break;
-                        case 'politician':
-                            resultTitle = '총명한 정치법률가상';
-                            resultExplain =
-                                '두뇌가 총명하고 명석하며 재능도 많아 다양한 영역에서 두각을 나타내는 상입니다. 정치법률가상은 넓은 이마를 가져 사물을 큰 관점에서 보고 얼굴 중앙부와 하부가 발달해 있으면 실행력이 뛰어나며 콧방울이 큰 코를 가졌으면 재산운도 있습니다. 윤곽이 뚜렷한 팔자 눈썹을 가졌다면 당신은 카리스마 넘치는 야심가일 것입니다.';
-                            resultCeleb = '셀럽 정치법률가: 박지원, 표창원, 박주민, 홍준표, 오바마';
-                            break;
-                        case 'rich':
-                            resultTitle = '핸썸한 부자상';
-                            resultExplain =
-                                '눈썹 사이가 넓고 훤하여 인생을 탄탄대로로 성공할 수 있는 상입니다. 코 끝이 둥글고 콧방울이 뚜렷할수록 금전운이 좋습니다. 도톰하고 동글동글한 귓바퀴에 두껍고 살집이 풍만한 귓불을 가진 남자는 활력이 넘치고 건강한 스타일로 재물운이 따르고 명성을 얻어 거물이 될 상입니다.!';
-                            resultCeleb =
-                                '셀럽 부자: 이건희, 빌게이츠, 정몽구, 김택진, 김범수, 김정주';
-                            break;
-                        default:
-                            resultTitle = '알수없음';
-                            resultExplain = '';
-                            resultCeleb = '';
-                    }
-                } else {
-                    switch (prediction[0].className) {
-                        case 'singer':
-                            resultTitle = '귀여운 가수상';
-                            resultExplain =
-                                '개성이 강하고 지성과 감성의 균형이 잘 잡혀 있으며 인간관계도 원만합니다. 눈동자가 뚜렷하고 선명하며 적당히 둥글고 가느다란 좋은 눈을 가졌습니다. 턱이 둥그스름 하다면 주변 사람들에게 정을 베푸는 타입으로서 항상 남들한테 즐거움을 주고 대부분 좋은 평을 받는 호감형의 성격입니다. 상냥하고 활발하면서 매사 의욕적이고 활력이 넘치는 생활을 즐기는 타입입니다.!';
-                            resultCeleb =
-                                '셀럽 가수: 이효리, 아이유, 수지, 민아(걸스데이), 나연(트와이스)';
-                            break;
-                        case 'moviestar':
-                            resultTitle = '섹시한 영화배우상';
-                            resultExplain =
-                                '매끄러우면서도 홍조가 살짝 나타나는 뽀얀 피부, 우수에 젖은 눈동자, 오똑한 코, 풍성하고 긴 속눈썹을 자랑하고픈 당신은 도도해 보이지만 매우 사교적이고 묘한 매력을 풍겨 누구하고도 잘 어울리며 인기가 넘쳐 주변에 따르는 이들이 많습니다. 섹시함을 뽐내면서도 애교도 부릴줄 아는 귀여움을 지녀 여성들로부터는 부러움을 받고 남성들로부터는 많은 사랑을 받는 매력녀입니다.!';
-                            resultCeleb =
-                                '셀럽 영화배우: 김혜수, 손예진, 송혜교, 박보영, 오드리헵번, 강수연, ';
-                            break;
-                        case 'entertainer':
-                            resultTitle = '만능 연예인상';
-                            resultExplain =
-                                '때로는 매혹적인 눈빛을 발사하지만 청순하면서도 귀엽고 순수하며 상큼하고 깜찍 발랄한 당신은 어느 곳에서나 관심과 사랑을 듬뿍받는 존재입니다. 총명하고 재주가 많아 노래, 연기 등 예능은 물론이고 사업까지 뛰어난 수완을 발휘하고 있으며 사랑을 줄줄 알고 사랑하는 사람의 마음을 사로잡을 줄 아는 능력까지 갖춘 만능 엔터테이너입니다.!';
-                            resultCeleb = '셀럽 연예인: 김태희, 수지, 한가인, 한예슬, 설현, 문채원';
-                            break;
-                        case 'politician':
-                            resultTitle = '지혜의 정치법률가상';
-                            resultExplain =
-                                '긴 눈썹과 맑은 눈을 가진 당신은 지혜와 더불어 사물을 보는 시야가 매우 넓은 혜안을 지니고 있는 인물입니다. 본인의 철학과 소신이 뚜렷하여 강인하며 다소 차가운 인상으로 비쳐지기도 하지만 겉모습이나 풍기는 이미지와는 달리 내면적으로는 매우 부드럽고 온순한 성격의 소유자입니다. 추진력과 지도력이 강하면서도 따뜻한 인간미를 갖추고 있어 만인의 사랑을 받는 지도자상입니다.';
-                            resultCeleb =
-                                '셀럽 정치법률가상: 추미애, 심상정, 강금실, 류호정, 고민정';
-                            break;
-                        case 'rich':
-                            resultTitle = '부러운 부자상';
-                            resultExplain =
-                                '이마가 도톰하고 넓으며 인중이 깊고 목이 긴 당신은 눈가의 애교살이 도톰해 웃는 모습도 복스럽습니다. 당신은 둥글고 부드러우면서 두툼한 콧망울의 단정한 코를 가져 보통 사람이 누리지 못할 뛰어난 재물운을 타고 났습니다. 활동적이고 추진력이 강한 성격이지만 보이지 않는 곳에서는 타인에게 정을 베풀며 나누는 온정과 따스함을 지닌 진정한 부자의 상입니다.';
-                            resultCeleb = '셀럽 부자: 이부진, 이서현, 홍라희, 서민정, 현정은';
-                            break;
-                        default:
-                            resultTitle = '알수없음';
-                            resultExplain = '';
-                            resultCeleb = '';
-                    }
-                }
-                var title =
-                    "<div class='" +
-                    prediction[0].className +
-                    "-animal-title'>" +
-                    resultTitle +
+                var label =
+                    "<div class='animal-label d-flex align-items-center'>" +
+                    labelTitle +
                     '</div>';
-                var explain = "<div class='animal-explain pt-2'>" + resultExplain + '</div>';
-                var celeb =
-                    "<div class='" +
-                    prediction[0].className +
-                    "-animal-celeb pt-2 pb-2'>" +
-                    resultCeleb +
-                    '</div>';
-                $('.result-message').html(title + explain + celeb);
-                var barWidth;
-                for (let i = 0; i < maxPredictions; i++) {
-                    if (prediction[i].probability.toFixed(2) > 0.1) {
-                        barWidth = Math.round(prediction[i].probability.toFixed(2) * 100) + '%';
-                    } else if (prediction[i].probability.toFixed(2) >= 0.01) {
-                        barWidth = '4%';
-                    } else {
-                        barWidth = '2%';
-                    }
-                    var labelTitle;
-                    switch (prediction[i].className) {
-                        case 'singer':
-                            labelTitle = '가수상';
-                            break;
-                        case 'moviestar':
-                            labelTitle = '영화배우상';
-                            break;
-                        case 'entertainer':
-                            labelTitle = '연예인상';
-                            break;
-                        case 'politician':
-                            labelTitle = '정치법률가상';
-                            break;
-                        case 'rich':
-                            labelTitle = '부자상';
-                            break;
-                        default:
-                            labelTitle = '알수없음';
-                    }
-                    var label =
-                        "<div class='animal-label d-flex align-items-center'>" +
-                        labelTitle +
-                        '</div>';
-                    var bar =
-                        "<div class='bar-container position-relative container'><div class='" +
-                        prediction[i].className +
-                        "-box'></div><div class='d-flex justify-content-center align-items-center " +
-                        prediction[i].className +
-                        "-bar' style='width: " +
-                        barWidth +
-                        "'><span class='d-block percent-text'>" +
-                        Math.round(prediction[i].probability.toFixed(2) * 100) +
-                        '%</span></div></div>';
-                    labelContainer.childNodes[i].innerHTML = label + bar;
+                var bar =
+                    "<div class='bar-container position-relative container'><div class='" +
+                    prediction[i].className +
+                    "-box'></div><div class='d-flex justify-content-center align-items-center " +
+                    prediction[i].className +
+                    "-bar' style='width: " +
+                    barWidth +
+                    "'><span class='d-block percent-text'>" +
+                    Math.round(prediction[i].probability.toFixed(2) * 100) +
+                    '%</span></div></div>';
+                labelContainer.childNodes[i].innerHTML = label + bar;
+            }
+        }
+    </script>
+    <script>
+        function iosApp() {
+            document.getElementById('addThis').style.display = 'none';
+            document.getElementById('disqus_thread').style.display = 'none';
+            var kakao = document.getElementsByClassName('kakao_ad_area');
+            for (var i = 0; i < kakao.length; i++) {
+                if (kakao[i]) {
+                    kakao[i].style.display = 'none';
                 }
             }
-        </script>
-        <script>
-            function iosApp() {
-                document.getElementById('addThis').style.display = 'none';
-                document.getElementById('disqus_thread').style.display = 'none';
-                var kakao = document.getElementsByClassName('kakao_ad_area');
-                for (var i = 0; i < kakao.length; i++) {
-                    if (kakao[i]) {
-                        kakao[i].style.display = 'none';
-                    }
-                }
-                document.getElementById('yotube-top-link').style.display = 'none';
-                document.getElementById('yotube-mid-link').style.display = 'none';
-                document.getElementById('yotube-bottom-link').remove();
-                document.getElementById('moreInfo').remove();
-                document.getElementById('goToBlog').remove();
-            }
-        </script>
-    </body>
-    <!-- 
+            document.getElementById('yotube-top-link').style.display = 'none';
+            document.getElementById('yotube-mid-link').style.display = 'none';
+            document.getElementById('yotube-bottom-link').remove();
+            document.getElementById('moreInfo').remove();
+            document.getElementById('goToBlog').remove();
+        }
+    </script>
+</body>
+<!-- 
 image input box
 Copyright (c) 2020 by Aaron Vanston (https://codepen.io/aaronvanston/pen/yNYOXR)
 
@@ -526,4 +470,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  -->
+
 </html>
